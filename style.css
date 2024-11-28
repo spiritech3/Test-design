@@ -1,0 +1,44 @@
+body{
+    background-color:burlywood;
+}
+
+.Home{
+    margin-left: 650px;
+}
+
+li {
+    padding-inline: 4px;
+    display: inline-block;
+}
+
+ul{
+    margin-right: 20px;
+}
+
+nav{
+    background-color: white;
+    align-items: center;
+    padding-right: 10px;
+}
+
+
+.foot{
+    display: flex;
+    padding-left: 160px;
+    margin-top: 70px;
+    padding-top: 130px;
+    background-color: white;
+}
+
+.foot2{
+    margin-left: 150px;
+}
+
+.overall-container{
+    margin-top: 100px;
+}
+
+img{
+    float: right;
+    margin-right: 50px;
+}
