@@ -1,5 +1,5 @@
 body{
-    background-color:burlywood;
+    background-color:lightgreen;
 }
 
 .Home{
@@ -8,7 +8,7 @@ body{
 
 li {
     padding-inline: 4px;
-    display: inline-block;
+    display: inline-block; /*this section makes the Home-Contact section be on a straight line*/
 }
 
 ul{
@@ -26,7 +26,7 @@ nav{
     display: flex;
     padding-left: 160px;
     margin-top: 70px;
-    padding-top: 130px;
+    padding-top: 70px;
     background-color: white;
 }
 
@@ -39,6 +39,6 @@ nav{
 }
 
 img{
-    float: right;
+    float: right; /*this makes the image align right*/
     margin-right: 50px;
 }

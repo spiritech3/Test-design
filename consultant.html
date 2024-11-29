@@ -5,16 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Get Free Consultant</title>
     <link rel="stylesheet" href="consultant.css">
-    <link rel="icon" name="image/jpg" href="">
+    <link rel="icon" name="image/jpg" href="images.png">
 </head>
+
+<!--here's the body of the webpage-->
 <body>
-    <div>
+    <div class="welcome">
         <h1>Welcome to our free consultant services</h1>
         <p>Choose what you want us to help you with</p>
     </div>
 
     <!--section for dropdown button-->
-    <div>
+    <div class="dropdown">
         <select>
             <option value="Design Tutorials">Design Tutorials</option>
             <option value="Design Community">Design Community</option>
@@ -23,21 +25,37 @@
         </select>
     </div>
 
-  <div>
+  <div style="text-align: center; margin-top: 40px;">
     <p>How old are you?</p>
     <input type="text" value="Enter answer here">
   </div>
 
     <!--section for radio button-->
-   <div>
+   <div style="text-align: center; margin-top: 25px;">
     <p>Do you want us to send a feedback to your email?</p>
     Yes<input type="radio" value="Yes">
     <br>No<input type="radio" value="No">
    </div>
 
+   <!--this section is for the form that needs to be filled-->
+   <div class="text">
+   <p>Do you have any suggestions to share, fill here.</p>
+   <form>
+    <textarea id="fill here" name="fill here"></textarea>
+   </form>
+   </div>
+
+<!--this is the submit button-->
+<div class="submit">
+   <button style="padding-inline: 5px; padding-block: 5px; color: white; background-color: brown; border-style: none;">Submit</button>
+</div>
+
+   <!--here's the footer section, which is shown on the bottom of a webpage-->
    <footer>
+  <b>
     All Rights Reserved &copy;2024 NETISENS DESIGNS
     built by Spiritech Innovations.
+  </b>
    </footer>
 </body>
 </html>

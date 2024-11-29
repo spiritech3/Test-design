@@ -1,0 +1,28 @@
+body{
+    background-color: lightgreen;
+}
+
+.welcome{
+    text-align: center;
+    font-style: oblique;
+}
+
+.dropdown{
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 130px;
+}
+
+.text{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.submit{
+    text-align: center;
+    color: white;
+}
